@@ -1,6 +1,7 @@
 package dicionarioo;
 
-public class PalavraFactory {
+public interface PalavraFactory {
 
+    Palavra criarPalavra(String texto, Categoria categoria, PronunciacaoStrategy pronuncia);
+    
 }
-

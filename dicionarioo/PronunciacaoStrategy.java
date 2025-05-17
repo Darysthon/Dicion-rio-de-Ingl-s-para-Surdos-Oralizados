@@ -1,5 +1,7 @@
 package dicionarioo;
 
-public class PronunciacaoStrategy {
+public interface PronunciacaoStrategy {
+
+    String obterPronuncia(String texto);
     
 }
